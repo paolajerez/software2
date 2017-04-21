@@ -1,0 +1,124 @@
+html
+{
+	font: 1em/1.3 Arial, Helvetica, sans-serif; 
+}
+        /* Todos los enlaces la pagina */
+a { color: #CC3300; }
+
+body
+{
+	 background-color: #f1f1f1;
+	padding-left: 50px;
+}
+
+	/* Todos los prrafos contenidos en #primero */
+ #primero p { color: #336699; }
+
+div#paginacion {
+       border: 1px solid #CCC;
+       background-color: #E0E0E0;
+       padding: .5em;
+       width: 100%;
+       height: 20px;
+    }
+     .derecha {
+       float: right;
+    }
+     .izquierda {
+       float: left;
+	}
+	div.clear{
+		clear: both;
+	}
+}
+
+.normal span { font-weight: bold; }
+
+p { color: #555; }
+
+td, .tabla1 
+{
+ 	background: url("imagen.png") no-repeat center;
+}
+
+        /* Los elementos "em" contenidos en #primero */
+#primero em { background: #FFFFCC; padding: .1em; }
+
+
+
+
+em, .especial { background: #FFCC99; border: 1px solid #FF9900; padding: .1em; }
+        /* Todos los elementos "em" de clase "especial" en toda la pagina */
+ .especial{	background: #FFCC99;}
+       /* Elementos "span" contenidos en .normal */
+ .normal span { font-weight: bold; }
+
+ 
+#galeria img {
+              float: left;
+              margin: 1em;
+              padding: .5em;
+              border: 1px solid red;
+            }
+  
+
+#table4{
+	border: 0px;
+	margin: 0px;
+	border-spacing: .0em;
+	padding: .0em;
+}
+#td1{
+	width: 24px;
+	height: 24px;
+	background-image: url(images/cu_sup_izq_1.gif);
+}
+#td2{
+	width: 400px;
+	height: 24px;
+	background-image: url(images/cu_sup_1.gif);
+	background-repeat: repeat-x;
+}
+#td3{
+	width: 24px;
+	height: 24px;
+	background-image: url(images/cu_sup_der_1.gif);
+}
+/*segunda fila*/
+#td4{
+	width: 24px;
+	height: 100px;
+	background-image: url(images/cu_izq_1.gif);
+	background-repeat: repeat-y;
+	background-position: left;
+}
+#td5{
+	width: 400px;
+	height: 100px;
+	background-image: url(images/cu_fondo_1.gif);
+	background-repeat: repeat-x;
+}
+#td6{
+	width: 24px;
+	height: 100px;
+	background-image: url(images/cu_der_1.gif);
+	background-repeat: repeat-y;
+	background-position: right;
+}
+/*tercera fila*/
+#td7{
+	width: 23px;
+	height: 24px;
+	background-image: url(images/cu_inf_izq_1.gif);
+}
+#td8{
+	width: 400px;
+	height: 24px;
+	background-image: url(images/cu_inf_1.gif);
+	background-repeat: repeat-x;
+}
+#td9{
+	width: 23px;
+	height: 24px;
+	background-image: url(images/cu_inf_der_1.gif);
+}
